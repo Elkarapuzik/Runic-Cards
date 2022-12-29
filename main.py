@@ -30,17 +30,17 @@ for i in range(10):
         three_random_skills[2] = three_random_skills[2].replace(letter , runic_alphabet[letter] )
 
     genders = [
-        'male',
-        'female'
+        "male",
+        "female"
     ]
 
     genders_choosen = random.choice(genders)
 
-    if genders_choosen == 'male' : 
+    if genders_choosen == "male" : 
         last_name = fake.last_name_male()
         first_name = fake.first_name_male()
 
-    if genders_choosen == 'female' : 
+    if genders_choosen == "female" : 
         last_name = fake.last_name_female()
         first_name = fake.first_name_female()
 
